@@ -1,0 +1,7 @@
+certifi==2019.6.16
+et-xmlfile==1.0.1
+jdcal==1.4.1
+openpyxl==2.6.2
+python-dateutil==2.8.0
+python-dotenv==0.10.3
+six==1.12.0
