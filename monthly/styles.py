@@ -15,3 +15,20 @@ A1 = Font(
      shadow=None,
      condense=None,
 )
+
+B2 = Font(
+     name="MS PGothic" ,
+     size=10.0,
+     extend=None,
+     underline=None,
+     vertAlign=None,
+     scheme=None,
+     charset=128,
+     family=3.0,
+     bold=True,
+     italic=False,
+     strike=None,
+     outline=None,
+     shadow=None,
+     condense=None,
+)
