@@ -24,6 +24,14 @@ def main():
         ws.title = date_suffix
         ws["A1"].font = styles.A1
         ws["A1"].value = "{0}月分勤務表（{1}年{2}月16日～{3}年{4}月15日）".format(now.month, pre_month.year, pre_month.month, next_month.year, now.month)
+        ws["A2"].font = styles.A2
+        ws["A2"].value = settings.A2_DEFAULT
+        ws.merge_cells("A2:F2")
+        ws["G2"].font = styles.G2
+        ws["G2"].alignment = styles.G2_Align
+        ws["G2"].value = settings.EMPLOYEE_NAME
+        ws.column_dimensions["G"].width = 40
+
     else:
         wb = load_workbook(file_name)
 
